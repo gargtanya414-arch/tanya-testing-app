@@ -381,13 +381,13 @@ export default function Index() {
   |--------------------------------------------------------------------------
   */
 
-  useEffect(() => {
-    if (loaderData?.products) {
-      setProducts(
-        loaderData.products,
-      );
-    }
-  }, [loaderData]);
+  // useEffect(() => {
+  //   if (loaderData?.products) {
+  //     setProducts(
+  //       loaderData.products,
+  //     );
+  //   }
+  // }, [loaderData]);
 
   /*
   |--------------------------------------------------------------------------
